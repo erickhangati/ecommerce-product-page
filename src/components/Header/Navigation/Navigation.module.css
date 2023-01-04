@@ -1,0 +1,31 @@
+.navigation {
+  list-style: none;
+  margin: 0;
+
+  margin-right: auto;
+
+  display: flex;
+  gap: 2rem;
+}
+
+.navigation li {
+  padding: 2.4rem 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+  color: var(--grayish-blue);
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  margin-top: 1rem;
+}
+
+.navigation li:hover {
+  border-bottom: 4px solid var(--orange);
+  color: var(--very-dark-blue);
+}
+
+@media only screen and (max-width: 35em) {
+  .navigation li {
+    display: none;
+  }
+}

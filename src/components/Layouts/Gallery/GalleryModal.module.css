@@ -1,0 +1,97 @@
+.gallery-modal {
+  position: fixed;
+  width: 40rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
+.product-image {
+  width: 40rem;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.product-image img {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+.product-image svg {
+  align-self: flex-end;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.product-image button {
+  border: 0;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.product-image button:hover {
+  background-color: var(--orange);
+}
+
+.product-image button svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product-image button:hover svg {
+  stroke: white;
+}
+
+.button-next {
+  top: 41%;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.button-previous {
+  top: 41%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.thumbnails {
+  width: 40rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.thumbnails img {
+  width: 100%;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+
+.thumbnails img:hover {
+  opacity: 60%;
+}
+
+.thumbnails img.active-thumbnail {
+  opacity: 60%;
+  border: 2px solid white;
+}

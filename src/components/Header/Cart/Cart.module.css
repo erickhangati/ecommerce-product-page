@@ -1,0 +1,28 @@
+.cart {
+  position: relative;
+  cursor: pointer;
+  margin-top: 0.4rem;
+}
+
+.cart span {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: var(--dark-grayish-blue);
+  color: white;
+  padding: 0.2rem 0.8rem;
+  border-radius: 100px;
+  font-size: 0.9rem;
+}
+
+.cart:hover span {
+  background-color: var(--orange);
+}
+
+.cart:hover svg {
+  fill: var(--orange);
+}
+
+.cart span.badge {
+  background-color: var(--orange);
+}

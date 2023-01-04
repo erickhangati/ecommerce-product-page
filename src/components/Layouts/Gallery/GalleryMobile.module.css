@@ -1,0 +1,47 @@
+.gallery-mobile {
+  display: none;
+  position: relative;
+}
+
+.gallery-mobile img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 35em) {
+  .gallery-mobile {
+    display: block;
+  }
+}
+
+.gallery-mobile button {
+  border: none;
+  background: white;
+  padding: 3rem;
+  position: absolute;
+  top: 43%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.gallery-mobile button:hover {
+  background: var(--orange);
+}
+
+.gallery-mobile button svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery-mobile button:hover svg {
+  stroke: white;
+}
+
+.button-next {
+  right: 5%;
+}
+
+.button-previous {
+  left: 5%;
+}

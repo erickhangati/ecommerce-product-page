@@ -1,0 +1,29 @@
+.mobile-menu-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100vh;
+  z-index: 15;
+  padding: 4rem;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.mobile-menu-modal ul {
+  list-style: none;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.mobile-menu-modal ul li {
+  cursor: pointer;
+}
