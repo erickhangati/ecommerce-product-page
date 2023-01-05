@@ -1,4 +1,4 @@
-# Frontend Mentor - E-commerce Product Page Challenger
+# Frontend Mentor - E-commerce Product Page Challenge
 
 ![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)
 
@@ -26,6 +26,6 @@ After adding product to cart, the cart updates and on click dispalys products in
 2. CSS (Grid, Flexbox)
 3. React JS
 
-## Live link to the QR code component
+## Live link to the E-commerce Product Page
 
 [https://eric-ecommerce-product-page.netlify.app/](https://eric-ecommerce-product-page.netlify.app/ "Frontend Mentor Challenge - Ecommerce Product Page")
